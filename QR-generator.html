@@ -35,21 +35,19 @@
             <input type="color" id="colorLight" value="#ffffff">
         </div>
         <button type="submit">Generate QR Code</button>
+        <a href="#" type="submit" id="btn-save">Save Picture</a>
     </form>
 </div>
 
 <div class="output">
-    <img src="./Myqr.png" alt="Reloade">
+    <div id="qrcode">
+        <img src="./Myqr.png" alt="">
+    </div>
     <div id="loading">
         <div id="spinner"></div>
+        <p>Please wait......</p>
     </div>
 </div>
-
-
-
-
-
-
-    <script src="./QR-generator.js"></script>
+    <script src="./QR-generator.js"></script> 
 </body>
 </html>
